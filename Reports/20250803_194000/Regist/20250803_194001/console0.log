@@ -1,0 +1,24 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-08-03 19:40:12.502 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Regist
+2025-08-03 19:40:12.609 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Syfani Alya Fauziyyah
+2025-08-03 19:40:12.610 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = API Azure
+2025-08-03 19:40:12.611 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = syfan - Syfani_Alya
+2025-08-03 19:40:12.611 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-03 19:40:12.612 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.83.217
+2025-08-03 19:40:12.614 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-08-03 19:40:13.211 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:13.211 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/POS_User
+2025-08-03 19:40:13.642 DEBUG testcase.POS_User                        - 1: response = sendRequest(findTestObject("User/POST_User"))
+2025-08-03 19:40:15.983 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Regist\20250803_194001\requests\main\POST_User_0.har
+2025-08-03 19:40:16.099 DEBUG testcase.POS_User                        - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:16.182 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/POS_User
+2025-08-03 19:40:16.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:16.191 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/GET_Validate Username
+2025-08-03 19:40:16.321 DEBUG testcase.GET_Validate Username           - 1: response = sendRequest(findTestObject("User/GET_Validate_Username", ["username":"userbarulagi001"]))
+2025-08-03 19:40:16.716 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Regist\20250803_194001\requests\main\GET_Valid...sername_1.har
+2025-08-03 19:40:16.727 DEBUG testcase.GET_Validate Username           - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:16.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/GET_Validate Username
+2025-08-03 19:40:16.827 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-03 19:40:16.827 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Regist
+2025-08-03 19:40:16.827 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

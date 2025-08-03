@@ -1,0 +1,66 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-08-03 19:40:36.320 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Shopping Cart
+2025-08-03 19:40:36.454 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Syfani Alya Fauziyyah
+2025-08-03 19:40:36.456 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = API Azure
+2025-08-03 19:40:36.457 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = syfan - Syfani_Alya
+2025-08-03 19:40:36.458 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-03 19:40:36.459 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.83.217
+2025-08-03 19:40:36.462 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-08-03 19:40:37.041 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:37.042 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/GET_Books
+2025-08-03 19:40:37.436 DEBUG testcase.GET_Books                       - 1: response = sendRequest(findTestObject("Books/GET_Books"))
+2025-08-03 19:40:39.154 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\GET_Books_0.har
+2025-08-03 19:40:39.235 DEBUG testcase.GET_Books                       - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:39.262 DEBUG testcase.GET_Books                       - 3: sendRequestAndVerify(findTestObject("Books/GET_Category_List"))
+2025-08-03 19:40:39.554 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\GET_Category_List_1.har
+2025-08-03 19:40:39.686 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------
+2025-08-03 19:40:39.686 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification
+2025-08-03 19:40:40.046 DEBUG testcase.GET_Category_List               - 1: request = getInstance().getCurrentRequest()
+2025-08-03 19:40:40.049 DEBUG testcase.GET_Category_List               - 2: response = getInstance().getCurrentResponse()
+2025-08-03 19:40:40.052 DEBUG testcase.GET_Category_List               - 3: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:40.059 DEBUG testcase.GET_Category_List               - 4: getStatusCode()).isEqualTo(200)
+2025-08-03 19:40:40.243 INFO  c.k.k.core.main.WSVerificationExecutor   - END Verification
+2025-08-03 19:40:40.285 DEBUG testcase.GET_Books                       - 4: responsBookId = sendRequest(findTestObject("Books/GET_Books_by_id"))
+2025-08-03 19:40:40.547 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\GET_Books_by_id_2.har
+2025-08-03 19:40:40.554 DEBUG testcase.GET_Books                       - 5: verifyResponseStatusCode(responsBookId, 200)
+2025-08-03 19:40:40.559 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/GET_Books
+2025-08-03 19:40:40.564 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:40.564 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/POST_Shopping Cart
+2025-08-03 19:40:40.640 DEBUG testcase.POST_Shopping Cart              - 1: response = sendRequest(findTestObject("Shopping_Cart/POST_ShoppingCart", ["UserId":"11361", "BookId":"4"]))
+2025-08-03 19:40:41.505 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\POST_ShoppingCart_3.har
+2025-08-03 19:40:41.513 DEBUG testcase.POST_Shopping Cart              - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:41.519 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/POST_Shopping Cart
+2025-08-03 19:40:41.524 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:41.524 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/POST_Shopping Cart
+2025-08-03 19:40:41.538 DEBUG testcase.POST_Shopping Cart              - 1: response = sendRequest(findTestObject("Shopping_Cart/POST_ShoppingCart", ["UserId":"11361", "BookId":"4"]))
+2025-08-03 19:40:42.332 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\POST_ShoppingCart_4.har
+2025-08-03 19:40:42.336 DEBUG testcase.POST_Shopping Cart              - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:42.350 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/POST_Shopping Cart
+2025-08-03 19:40:42.360 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:42.360 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/POST_Shopping Cart
+2025-08-03 19:40:42.399 DEBUG testcase.POST_Shopping Cart              - 1: response = sendRequest(findTestObject("Shopping_Cart/POST_ShoppingCart", ["UserId":"11361", "BookId":"4"]))
+2025-08-03 19:40:43.039 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\POST_ShoppingCart_5.har
+2025-08-03 19:40:43.048 DEBUG testcase.POST_Shopping Cart              - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:43.056 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/POST_Shopping Cart
+2025-08-03 19:40:43.067 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:43.067 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/PUT_Shopping Cart
+2025-08-03 19:40:43.171 DEBUG testcase.PUT_Shopping Cart               - 1: response = sendRequest(findTestObject("Shopping_Cart/PUT_ShoppinCart_by_Id", ["UserId":"11361", "BookId":"4"]))
+2025-08-03 19:40:43.726 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\PUT_Shopp...t_by_Id_6.har
+2025-08-03 19:40:43.737 DEBUG testcase.PUT_Shopping Cart               - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:43.747 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/PUT_Shopping Cart
+2025-08-03 19:40:43.759 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:43.759 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DELETE_All Shopping Cart
+2025-08-03 19:40:43.868 DEBUG testcase.DELETE_All Shopping Cart        - 1: response = sendRequest(findTestObject("Shopping_Cart/DELETE_ShoppingCart", ["UserId":"11361"]))
+2025-08-03 19:40:44.449 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\DELETE_ShoppingCart_7.har
+2025-08-03 19:40:44.452 DEBUG testcase.DELETE_All Shopping Cart        - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:44.456 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DELETE_All Shopping Cart
+2025-08-03 19:40:44.458 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:40:44.458 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DELETE_Shopping Cart by BookId
+2025-08-03 19:40:44.518 DEBUG t.DELETE_Shopping Cart by BookId         - 1: response = sendRequest(findTestObject("Shopping_Cart/Delete_ShoppingCart_by_Id", ["UserId":"11361", "BookId":"4"]))
+2025-08-03 19:40:44.984 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\DELETE_Sh...t_by_Id_8.har
+2025-08-03 19:40:44.991 DEBUG t.DELETE_Shopping Cart by BookId         - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:40:44.999 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DELETE_Shopping Cart by BookId
+2025-08-03 19:40:45.052 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-03 19:40:45.055 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Shopping Cart
+2025-08-03 19:40:45.055 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

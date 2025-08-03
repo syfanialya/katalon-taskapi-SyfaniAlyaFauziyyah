@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Shopping Cart,,,,03-08-2025 19:40:36,03-08-2025 19:40:45,8.626s,PASSED
+,,,,,,,
+Test Cases/GET_Books,,,,03-08-2025 19:40:37,03-08-2025 19:40:40,3.517s,PASSED
+"response = sendRequest(findTestObject(""Books/GET_Books""))",,,,03-08-2025 19:40:37,03-08-2025 19:40:39,1.799s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:40:39,03-08-2025 19:40:39,0.026s,PASSED
+"sendRequestAndVerify(findTestObject(""Books/GET_Category_List""))",,,,03-08-2025 19:40:39,03-08-2025 19:40:40,1.023s,PASSED
+"responsBookId = sendRequest(findTestObject(""Books/GET_Books_by_id""))",,,,03-08-2025 19:40:40,03-08-2025 19:40:40,0.267s,PASSED
+"verifyResponseStatusCode(responsBookId, 200)",,,,03-08-2025 19:40:40,03-08-2025 19:40:40,0.003s,PASSED
+,,,,,,,
+Test Cases/POST_Shopping Cart,,,,03-08-2025 19:40:40,03-08-2025 19:40:41,0.955s,PASSED
+"response = sendRequest(findTestObject(""Shopping_Cart/POST_ShoppingCart"", [""UserId"":""11361"", ""BookId"":""4""]))",,,,03-08-2025 19:40:40,03-08-2025 19:40:41,0.874s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:40:41,03-08-2025 19:40:41,0.003s,PASSED
+,,,,,,,
+Test Cases/POST_Shopping Cart,,,,03-08-2025 19:40:41,03-08-2025 19:40:42,0.826s,PASSED
+"response = sendRequest(findTestObject(""Shopping_Cart/POST_ShoppingCart"", [""UserId"":""11361"", ""BookId"":""4""]))",,,,03-08-2025 19:40:41,03-08-2025 19:40:42,0.799s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:40:42,03-08-2025 19:40:42,0.007s,PASSED
+,,,,,,,
+Test Cases/POST_Shopping Cart,,,,03-08-2025 19:40:42,03-08-2025 19:40:43,0.695s,PASSED
+"response = sendRequest(findTestObject(""Shopping_Cart/POST_ShoppingCart"", [""UserId"":""11361"", ""BookId"":""4""]))",,,,03-08-2025 19:40:42,03-08-2025 19:40:43,0.647s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:40:43,03-08-2025 19:40:43,0.005s,PASSED
+,,,,,,,
+Test Cases/PUT_Shopping Cart,,,,03-08-2025 19:40:43,03-08-2025 19:40:43,0.684s,PASSED
+"response = sendRequest(findTestObject(""Shopping_Cart/PUT_ShoppinCart_by_Id"", [""UserId"":""11361"", ""BookId"":""4""]))",,,,03-08-2025 19:40:43,03-08-2025 19:40:43,0.567s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:40:43,03-08-2025 19:40:43,0.006s,PASSED
+,,,,,,,
+Test Cases/DELETE_All Shopping Cart,,,,03-08-2025 19:40:43,03-08-2025 19:40:44,0.697s,PASSED
+"response = sendRequest(findTestObject(""Shopping_Cart/DELETE_ShoppingCart"", [""UserId"":""11361""]))",,,,03-08-2025 19:40:43,03-08-2025 19:40:44,0.584s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:40:44,03-08-2025 19:40:44,0.002s,PASSED
+,,,,,,,
+Test Cases/DELETE_Shopping Cart by BookId,,,,03-08-2025 19:40:44,03-08-2025 19:40:44,0.541s,PASSED
+"response = sendRequest(findTestObject(""Shopping_Cart/Delete_ShoppingCart_by_Id"", [""UserId"":""11361"", ""BookId"":""4""]))",,,,03-08-2025 19:40:44,03-08-2025 19:40:44,0.473s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:40:44,03-08-2025 19:40:44,0.007s,PASSED

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Books" time="4.77" tests="2" failures="0" errors="0">
+   <testsuite name="Books" tests="2" failures="0" errors="0" time="4.77" skipped="0" timestamp="2025-08-03T12:38:52.288Z" hostname="syfan - Syfani_Alya" id="Test Suites/Books">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_193849\\Books\\20250803_193849"/>
+         <property name="logFiles" value="C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_193849\\Books\\20250803_193849\\console0.log, C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_193849\\Books\\20250803_193849\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Syfani Alya Fauziyyah"/>
+         <property name="hostName" value="syfan - Syfani_Alya"/>
+         <property name="hostAddress" value="192.168.83.217"/>
+         <property name="projectName" value="API Azure"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.3.0"/>
+      </properties>
+      <testcase name="Test Cases/GET_Books" time="3.785" classname="Test Cases/GET_Books" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:38:52 - [TEST_CASE][PASSED] - Test Cases/GET_Books: Test Cases/GET_Books
+
+03-08-2025T19:38:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Books/GET_Books")): Send request successfully
+
+03-08-2025T19:38:55 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_193849\Books\20250803_193849\requests\main\GET_Books_0.har
+
+03-08-2025T19:38:55 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:38:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:38:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+03-08-2025T19:38:55 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Books/GET_Category_List")): Send request and verify the response successfully
+
+03-08-2025T19:38:55 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_193849\Books\20250803_193849\requests\main\GET_Category_List_1.har
+
+03-08-2025T19:38:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+03-08-2025T19:38:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+03-08-2025T19:38:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+03-08-2025T19:38:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:38:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+03-08-2025T19:38:56 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+03-08-2025T19:38:56 - [MESSAGE][PASSED] - Verify response successfully
+
+03-08-2025T19:38:56 - [MESSAGE][PASSED] - All validation steps have been passed
+
+03-08-2025T19:38:56 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+03-08-2025T19:38:56 - [TEST_STEP][PASSED] - responsBookId = sendRequest(findTestObject("Books/GET_Books_by_id")): Send request successfully
+
+03-08-2025T19:38:56 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_193849\Books\20250803_193849\requests\main\GET_Books_by_id_2.har
+
+03-08-2025T19:38:56 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:38:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(responsBookId, 200): Verify response status code successfully
+
+03-08-2025T19:38:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GET_Similar Books" time="0.374" classname="Test Cases/GET_Similar Books" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:38:56 - [TEST_CASE][PASSED] - Test Cases/GET_Similar Books: Test Cases/GET_Similar Books
+
+03-08-2025T19:38:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Books/GET_Similar_Books", ["id":"6"])): Send request successfully
+
+03-08-2025T19:38:57 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_193849\Books\20250803_193849\requests\main\GET_Similar_Books_3.har
+
+03-08-2025T19:38:57 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:38:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:38:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-08-2025T19:38:52 - [TEST_SUITE][PASSED] - Books: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

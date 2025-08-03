@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Shopping Cart" time="8.57" tests="7" failures="0" errors="0">
+   <testsuite name="Shopping Cart" tests="7" failures="0" errors="0" time="8.57" skipped="0" timestamp="2025-08-03T12:40:36.429Z" hostname="syfan - Syfani_Alya" id="Test Suites/Shopping Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_194000\\Shopping Cart\\20250803_194007"/>
+         <property name="logFiles" value="C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_194000\\Shopping Cart\\20250803_194007\\console0.log, C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_194000\\Shopping Cart\\20250803_194007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Syfani Alya Fauziyyah"/>
+         <property name="hostName" value="syfan - Syfani_Alya"/>
+         <property name="hostAddress" value="192.168.83.217"/>
+         <property name="projectName" value="API Azure"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.3.0"/>
+      </properties>
+      <testcase name="Test Cases/GET_Books" time="3.517" classname="Test Cases/GET_Books" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:37 - [TEST_CASE][PASSED] - Test Cases/GET_Books: Test Cases/GET_Books
+
+03-08-2025T19:40:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Books/GET_Books")): Send request successfully
+
+03-08-2025T19:40:39 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\GET_Books_0.har
+
+03-08-2025T19:40:39 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+03-08-2025T19:40:39 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Books/GET_Category_List")): Send request and verify the response successfully
+
+03-08-2025T19:40:39 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\GET_Category_List_1.har
+
+03-08-2025T19:40:39 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+03-08-2025T19:40:40 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+03-08-2025T19:40:40 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+03-08-2025T19:40:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+03-08-2025T19:40:40 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+03-08-2025T19:40:40 - [MESSAGE][PASSED] - Verify response successfully
+
+03-08-2025T19:40:40 - [MESSAGE][PASSED] - All validation steps have been passed
+
+03-08-2025T19:40:40 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+03-08-2025T19:40:40 - [TEST_STEP][PASSED] - responsBookId = sendRequest(findTestObject("Books/GET_Books_by_id")): Send request successfully
+
+03-08-2025T19:40:40 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\GET_Books_by_id_2.har
+
+03-08-2025T19:40:40 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(responsBookId, 200): Verify response status code successfully
+
+03-08-2025T19:40:40 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POST_Shopping Cart" time="0.955" classname="Test Cases/POST_Shopping Cart" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:40 - [TEST_CASE][PASSED] - Test Cases/POST_Shopping Cart: Test Cases/POST_Shopping Cart
+
+03-08-2025T19:40:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Shopping_Cart/POST_ShoppingCart", ["UserId":"11361", "BookId":"4"])): Send request successfully
+
+03-08-2025T19:40:41 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\POST_ShoppingCart_3.har
+
+03-08-2025T19:40:41 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:41 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POST_Shopping Cart" time="0.826" classname="Test Cases/POST_Shopping Cart" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:41 - [TEST_CASE][PASSED] - Test Cases/POST_Shopping Cart: Test Cases/POST_Shopping Cart
+
+03-08-2025T19:40:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Shopping_Cart/POST_ShoppingCart", ["UserId":"11361", "BookId":"4"])): Send request successfully
+
+03-08-2025T19:40:42 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\POST_ShoppingCart_4.har
+
+03-08-2025T19:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:42 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POST_Shopping Cart" time="0.695" classname="Test Cases/POST_Shopping Cart" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:42 - [TEST_CASE][PASSED] - Test Cases/POST_Shopping Cart: Test Cases/POST_Shopping Cart
+
+03-08-2025T19:40:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Shopping_Cart/POST_ShoppingCart", ["UserId":"11361", "BookId":"4"])): Send request successfully
+
+03-08-2025T19:40:43 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\POST_ShoppingCart_5.har
+
+03-08-2025T19:40:43 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:43 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PUT_Shopping Cart" time="0.684" classname="Test Cases/PUT_Shopping Cart" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:43 - [TEST_CASE][PASSED] - Test Cases/PUT_Shopping Cart: Test Cases/PUT_Shopping Cart
+
+03-08-2025T19:40:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Shopping_Cart/PUT_ShoppinCart_by_Id", ["UserId":"11361", "BookId":"4"])): Send request successfully
+
+03-08-2025T19:40:43 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\PUT_Shopp...t_by_Id_6.har
+
+03-08-2025T19:40:43 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:43 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DELETE_All Shopping Cart" time="0.697" classname="Test Cases/DELETE_All Shopping Cart" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:43 - [TEST_CASE][PASSED] - Test Cases/DELETE_All Shopping Cart: Test Cases/DELETE_All Shopping Cart
+
+03-08-2025T19:40:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Shopping_Cart/DELETE_ShoppingCart", ["UserId":"11361"])): Send request successfully
+
+03-08-2025T19:40:44 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\DELETE_ShoppingCart_7.har
+
+03-08-2025T19:40:44 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:44 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DELETE_Shopping Cart by BookId" time="0.541" classname="Test Cases/DELETE_Shopping Cart by BookId" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:44 - [TEST_CASE][PASSED] - Test Cases/DELETE_Shopping Cart by BookId: Test Cases/DELETE_Shopping Cart by BookId
+
+03-08-2025T19:40:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Shopping_Cart/Delete_ShoppingCart_by_Id", ["UserId":"11361", "BookId":"4"])): Send request successfully
+
+03-08-2025T19:40:44 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Shopping Cart\20250803_194007\requests\main\DELETE_Sh...t_by_Id_8.har
+
+03-08-2025T19:40:44 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:44 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-08-2025T19:40:36 - [TEST_SUITE][PASSED] - Shopping Cart: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

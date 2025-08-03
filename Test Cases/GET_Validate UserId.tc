@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GET_Validate UserId</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ae789da-ddd9-40da-85f0-726cc2d83e6e</testCaseGuid>
+</TestCaseEntity>

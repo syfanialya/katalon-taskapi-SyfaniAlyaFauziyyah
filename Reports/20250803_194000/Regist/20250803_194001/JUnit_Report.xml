@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regist" time="4.157" tests="2" failures="0" errors="0">
+   <testsuite name="Regist" tests="2" failures="0" errors="0" time="4.157" skipped="0" timestamp="2025-08-03T12:40:12.587Z" hostname="syfan - Syfani_Alya" id="Test Suites/Regist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_194000\\Regist\\20250803_194001"/>
+         <property name="logFiles" value="C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_194000\\Regist\\20250803_194001\\console0.log, C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_194000\\Regist\\20250803_194001\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Syfani Alya Fauziyyah"/>
+         <property name="hostName" value="syfan - Syfani_Alya"/>
+         <property name="hostAddress" value="192.168.83.217"/>
+         <property name="projectName" value="API Azure"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.3.0"/>
+      </properties>
+      <testcase name="Test Cases/POS_User" time="2.971" classname="Test Cases/POS_User" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:13 - [TEST_CASE][PASSED] - Test Cases/POS_User: Test Cases/POS_User
+
+03-08-2025T19:40:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/POST_User")): Send request successfully
+
+03-08-2025T19:40:15 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Regist\20250803_194001\requests\main\POST_User_0.har
+
+03-08-2025T19:40:16 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GET_Validate Username" time="0.553" classname="Test Cases/GET_Validate Username" status="PASSED">
+         <system-out><![CDATA[03-08-2025T19:40:16 - [TEST_CASE][PASSED] - Test Cases/GET_Validate Username: Test Cases/GET_Validate Username
+
+03-08-2025T19:40:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/GET_Validate_Username", ["username":"userbarulagi001"])): Send request successfully
+
+03-08-2025T19:40:16 - [MESSAGE][INFO] - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_194000\Regist\20250803_194001\requests\main\GET_Valid...sername_1.har
+
+03-08-2025T19:40:16 - [MESSAGE][PASSED] - Send request successfully
+
+03-08-2025T19:40:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-08-2025T19:40:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-08-2025T19:40:12 - [TEST_SUITE][PASSED] - Regist: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

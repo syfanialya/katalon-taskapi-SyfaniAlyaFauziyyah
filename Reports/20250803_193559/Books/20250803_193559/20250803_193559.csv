@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Books,,,,03-08-2025 19:36:03,03-08-2025 19:36:42,39.209s,PASSED
+,,,,,,,
+Test Cases/GET_Books,,,,03-08-2025 19:36:03,03-08-2025 19:36:25,21.225s,PASSED
+"response = sendRequest(findTestObject(""Books/GET_Books""))",,,,03-08-2025 19:36:04,03-08-2025 19:36:11,7.292s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:36:11,03-08-2025 19:36:11,0.023s,PASSED
+"sendRequestAndVerify(findTestObject(""Books/GET_Category_List""))",,,,03-08-2025 19:36:11,03-08-2025 19:36:15,3.645s,PASSED
+"responsBookId = sendRequest(findTestObject(""Books/GET_Books_by_id""))",,,,03-08-2025 19:36:15,03-08-2025 19:36:25,9.866s,PASSED
+"verifyResponseStatusCode(responsBookId, 200)",,,,03-08-2025 19:36:25,03-08-2025 19:36:25,0.004s,PASSED
+,,,,,,,
+Test Cases/GET_Similar Books,,,,03-08-2025 19:36:25,03-08-2025 19:36:42,17.264s,PASSED
+"response = sendRequest(findTestObject(""Books/GET_Similar_Books"", [""id"":""6""]))",,,,03-08-2025 19:36:25,03-08-2025 19:36:42,17.170s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:36:42,03-08-2025 19:36:42,0.011s,PASSED

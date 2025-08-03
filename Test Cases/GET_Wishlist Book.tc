@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GET_Wishlist Book</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ebf1c92-0a09-483a-8134-ecc93e12afc7</testCaseGuid>
+</TestCaseEntity>

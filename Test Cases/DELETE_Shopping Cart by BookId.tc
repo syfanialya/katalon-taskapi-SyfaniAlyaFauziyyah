@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DELETE_Shopping Cart by BookId</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>67d513db-c6e5-45ea-8da0-edf258a78719</testCaseGuid>
+</TestCaseEntity>

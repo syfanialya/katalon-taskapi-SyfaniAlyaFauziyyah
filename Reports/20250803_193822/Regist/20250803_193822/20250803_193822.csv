@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regist,,,,03-08-2025 19:38:25,03-08-2025 19:38:29,3.373s,PASSED
+,,,,,,,
+Test Cases/POS_User,,,,03-08-2025 19:38:26,03-08-2025 19:38:28,2.230s,PASSED
+"response = sendRequest(findTestObject(""User/POST_User""))",,,,03-08-2025 19:38:26,03-08-2025 19:38:28,1.779s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:38:28,03-08-2025 19:38:28,0.040s,PASSED
+,,,,,,,
+Test Cases/GET_Validate Username,,,,03-08-2025 19:38:28,03-08-2025 19:38:29,0.483s,PASSED
+"response = sendRequest(findTestObject(""User/GET_Validate_Username"", [""username"":""userbarulagi001""]))",,,,03-08-2025 19:38:28,03-08-2025 19:38:29,0.393s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-08-2025 19:38:29,03-08-2025 19:38:29,0.002s,PASSED

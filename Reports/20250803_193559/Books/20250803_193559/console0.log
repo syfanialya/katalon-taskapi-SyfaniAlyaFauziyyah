@@ -1,0 +1,36 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-08-03 19:36:03.091 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Books
+2025-08-03 19:36:03.215 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Syfani Alya Fauziyyah
+2025-08-03 19:36:03.217 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = API Azure
+2025-08-03 19:36:03.218 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = syfan - Syfani_Alya
+2025-08-03 19:36:03.218 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-03 19:36:03.219 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.83.217
+2025-08-03 19:36:03.221 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-08-03 19:36:03.818 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:36:03.818 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/GET_Books
+2025-08-03 19:36:04.192 DEBUG testcase.GET_Books                       - 1: response = sendRequest(findTestObject("Books/GET_Books"))
+2025-08-03 19:36:11.372 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_193559\Books\20250803_193559\requests\main\GET_Books_0.har
+2025-08-03 19:36:11.484 DEBUG testcase.GET_Books                       - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:36:11.508 DEBUG testcase.GET_Books                       - 3: sendRequestAndVerify(findTestObject("Books/GET_Category_List"))
+2025-08-03 19:36:14.333 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_193559\Books\20250803_193559\requests\main\GET_Category_List_1.har
+2025-08-03 19:36:14.449 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------
+2025-08-03 19:36:14.449 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification
+2025-08-03 19:36:14.879 DEBUG testcase.GET_Category_List               - 1: request = getInstance().getCurrentRequest()
+2025-08-03 19:36:14.882 DEBUG testcase.GET_Category_List               - 2: response = getInstance().getCurrentResponse()
+2025-08-03 19:36:14.886 DEBUG testcase.GET_Category_List               - 3: verifyResponseStatusCode(response, 200)
+2025-08-03 19:36:14.892 DEBUG testcase.GET_Category_List               - 4: getStatusCode()).isEqualTo(200)
+2025-08-03 19:36:15.090 INFO  c.k.k.core.main.WSVerificationExecutor   - END Verification
+2025-08-03 19:36:15.156 DEBUG testcase.GET_Books                       - 4: responsBookId = sendRequest(findTestObject("Books/GET_Books_by_id"))
+2025-08-03 19:36:25.001 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_193559\Books\20250803_193559\requests\main\GET_Books_by_id_2.har
+2025-08-03 19:36:25.022 DEBUG testcase.GET_Books                       - 5: verifyResponseStatusCode(responsBookId, 200)
+2025-08-03 19:36:25.043 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/GET_Books
+2025-08-03 19:36:25.049 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-03 19:36:25.050 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/GET_Similar Books
+2025-08-03 19:36:25.131 DEBUG testcase.GET_Similar Books               - 1: response = sendRequest(findTestObject("Books/GET_Similar_Books", ["id":"6"]))
+2025-08-03 19:36:42.290 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\syfan\Katalon Studio\API Azure\Reports\20250803_193559\Books\20250803_193559\requests\main\GET_Similar_Books_3.har
+2025-08-03 19:36:42.300 DEBUG testcase.GET_Similar Books               - 2: verifyResponseStatusCode(response, 200)
+2025-08-03 19:36:42.314 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/GET_Similar Books
+2025-08-03 19:36:42.390 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-03 19:36:42.391 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Books
+2025-08-03 19:36:42.391 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

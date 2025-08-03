@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/ShoppingCart",
+  "name": "ShoppingCart",
+  "reportFolder": "C:\\Users\\syfan\\Katalon Studio\\API Azure\\Reports\\20250803_194000\\ShoppingCart\\20250803_194000",
+  "startTime": 1754224809220,
+  "endTime": 1754224845610,
+  "totalPassedTestCases": "13",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "13",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}
